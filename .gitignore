@@ -1,0 +1,22 @@
+# PyInstaller build output
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# App runtime data (do NOT commit users' hidden-file index)
+hidden_index.json
+
+# Locked/encrypted vault files (never commit encrypted user data)
+*.locked
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
